@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E -o output.i input.c
+CFILE=input.c gcc -E -o c $CFILE
