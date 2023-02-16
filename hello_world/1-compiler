@@ -1,2 +1,2 @@
 #!/bin/bash
-input_file="$CFILE" output_file="$(basename "$CFILE" .c).o" gcc -c $input_file -o $output_file
+gcc $CFILE -c
