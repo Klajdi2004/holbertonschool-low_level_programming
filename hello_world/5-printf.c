@@ -3,10 +3,12 @@
 /**
  *  main - Entry point
  *
- *  Return always 0
- *
- *  <stdio> header
- *
+ * Description: using the main function
+ * 
+ * a program to print  "with proper grammar, but the outcome is a piece of art"
+ * 
+ * 
+ * Return: 0
  */
 
 int main()
