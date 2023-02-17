@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * stdio header
+ *
+ * main
+ *
+ * Description: prints bytes of these types
+ */
+
 int main()
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
