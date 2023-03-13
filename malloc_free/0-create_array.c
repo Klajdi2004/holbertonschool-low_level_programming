@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create_array - function
+ trdup.c create_array - function
  * @size: int
  * @c: char
  * Return: sucessful
