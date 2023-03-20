@@ -22,7 +22,7 @@ void print_dog(struct dog *d)
 
 	printf("Age: ");
 	if (d->age == 0)
-		printf("(nil)\n");
+		printf("0.000000\n");
 	else
 		printf("%.6f\n", d->age);
 
