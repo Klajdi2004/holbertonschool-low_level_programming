@@ -7,11 +7,12 @@
  * @name: string representing name of dog
  * @age: age of dog
  * @owner: string representing name of owner of dog
+ * Return: nothingi
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d != NULL)
+	if (d == NULL)
 		;
 	else
 	{
