@@ -7,6 +7,15 @@
 /* helpers */
 void print_array(int *array, size_t inc, size_t size);
 
+/**
+ * struct skiplist_s - Structure for a skip list node
+ * @n: Integer value stored in the node
+ * @index: Index of the node in the skip list
+ * @next: Pointer to the next node
+ * @express: Pointer to the next node at the express lane
+ *
+ * Description: This structure represents a node in a skip list.
+ */
 typedef struct skiplist_s
 {
 	int n;
@@ -15,6 +24,14 @@ typedef struct skiplist_s
 	struct skiplist_s *express;
 } skiplist_t;
 
+/**
+ * struct listint_s - Structure for a linked list node
+ * @n: Integer value stored in the node
+ * @index: Index of the node in the linked list
+ * @next: Pointer to the next node
+ *
+ * Description: This structure represents a node in a linked list.
+ */
 typedef struct listint_s
 {
 	int n;
